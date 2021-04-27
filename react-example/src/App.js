@@ -1,7 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import ListElement from "./ListElement"
+
 
 function App() {
+  const array = [
+    { id: 1, content: 'firstElement'},
+    { id: 1, content: 'secondElement'},
+    { id: 1, content: 'thirdElement'},
+  ];
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +24,8 @@ function App() {
         >
           Learn React
         </a>
+        <ListElement value={array}>
+        </ListElement>
       </header>
     </div>
   );
