@@ -9,7 +9,7 @@ const ListElement = (list) => {
                 array.map(element => <Element key = {element.id} value={element.content} />)
             }
         </ul>
-    );
+    );  
 }
 
 export default ListElement;

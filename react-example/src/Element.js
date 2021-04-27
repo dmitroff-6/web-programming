@@ -3,7 +3,7 @@ import React from 'react';
 const Element = (el) => {
     return(
         <ul>
-            <li>{el.value}</li>
+            <p>{el.value}</p>
         </ul>
     )
 }
